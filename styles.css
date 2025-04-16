@@ -1,0 +1,170 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #12684488;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  nav ul li a:hover {
+    color: rgb(245, 235, 235);
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #070842;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  video {
+    max-width: 70%;
+    height: 200px;
+  }
+  pre{
+    font-size: 1.5em;
+  }
+  .logo{
+    border-radius: 50px;
+    margin-left: auto;
+  }
+
+section{
+  padding: 20px;
+  /*text-align: center;*/
+}
+.gallery_Image{
+  width: 200px;
+  height: 270px;
+}
+.center{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 35%;
+  margin-right: 20%;
+  color:aliceblue
+}
+
+.color1{
+  background-color:  rgb(65, 150, 65);
+
+}
+#link1{
+  text-decoration: none;
+  color: #416607;
+  font-weight: bold;
+}
+#gallery{
+  background-color: #e5ffbc;
+}
+#photos{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px; /* spacing between cards */
+  padding: 20px;
+  flex-wrap: wrap; /* makes it responsive */
+  background-color: #7fa147;
+}
+/*This section for index home page */
+
+.index_a{
+  text-decoration: none;
+  color: #0038ee;
+  font-weight: bold;
+}   
+#index_main{
+  text-align: center;
+  background-image: url("/visit.jpg");
+}
+#index_down_section01{
+  background-color: #c2fcc2;
+}
+#index_down_section{
+  text-align: left;
+  margin-left: 20%;
+}
+/*About section*/
+#about_main{
+  text-align: center;
+}
+#about_down_section{
+  text-align: left;
+  margin-left: 20%;
+}
+#about_down_section01{
+  background-color: #c2fcc2;
+}
+/*Service section*/
+#services_main{
+  text-align: center;
+}
+#services_down_section01{
+  background-color: #c2fcc2;
+}
+#services_down_section{
+  text-align: left;
+  margin-left: 20%; 
+}
+/*Contact-us section*/
+#contact_main{
+  text-align: center;
+}
+#contact_down_section01{
+  background-color: #c2fcc2;
+}
+#contact_down_section{
+  text-align: left;
+  margin-left: 20%; 
+}
